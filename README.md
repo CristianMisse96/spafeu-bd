@@ -178,18 +178,9 @@ Si deseas contribuir al esquema de base de datos:
 
 Agradecemos a las personas que han participado en la construcción y evolución de este proyecto:
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/CristianMisse96">
-        <img src="https://github.com/CristianMisse96.png?size=100" width="100px;" alt="Cristian Misse"/><br />
-        <sub><b>Cristian Misse</b></sub>
-      </a><br />
-      <sub>💻 Lead Developer</sub><br />
-      <a href="https://github.com/CristianMisse96" title="GitHub">🐙</a>
-    </td>
-  </tr>
-</table>
+| 👤 Nombre | 📧 Correo | 🛠️ Rol / Contribución |
+|-----------|-----------|------------------------|
+| Cristian Misse | cgmisse@gmail.com | Diseño e implementación del esquema de base de datos, datos iniciales y scripts de instalación |
 
 ### Cómo aparecer aquí
 
