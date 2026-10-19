@@ -1,8 +1,16 @@
+<div align="center">
+
 # SPAFEU Database
+
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17+-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![SQL](https://img.shields.io/badge/SQL-Standard-003B57?logo=postgresql&logoColor=white)]()
+[![Windows](https://img.shields.io/badge/Windows-Script%20de%20instalación-0078D6?logo=windows&logoColor=white)]()
 
 Base de datos PostgreSQL para el **Sistema de Promoción de Actividad Física en Entornos Universitarios (SPAFEU)**.
 
 Este repositorio contiene el esquema relacional, tipos de datos personalizados, relaciones de integridad referencial y datos semilla necesarios para gestionar usuarios, perfiles de salud, protocolos de actividad física, ejercicios, cuestionarios y sesiones de entrenamiento.
+
+</div>
 
 ---
 
@@ -58,11 +66,11 @@ SPAFEU es una plataforma orientada a promover hábitos de actividad física en c
 
 ## Tecnologías y requisitos
 
-| Componente | Versión recomendada |
-|------------|---------------------|
-| PostgreSQL | 17 o superior |
-| psql | Incluido con PostgreSQL |
-| Sistema operativo | Windows (script `install.bat`) o cualquier SO con PostgreSQL instalado |
+| Tecnología | Versión recomendada | Descripción |
+|------------|---------------------|-------------|
+| [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17+-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/) | `17 o superior` | Motor de base de datos relacional principal |
+| [![psql](https://img.shields.io/badge/psql-Incluido-336791?logo=postgresql&logoColor=white)](https://www.postgresql.org/docs/current/app-psql.html) | Incluido con PostgreSQL | Cliente de línea de comandos de PostgreSQL |
+| [![Windows](https://img.shields.io/badge/Windows-10%2F11-0078D6?logo=windows&logoColor=white)](https://www.microsoft.com/windows) | `10/11` | Sistema operativo recomendado para el script `install.bat` |
 
 ### Requisitos previos
 
