@@ -2,7 +2,8 @@
 CREATE TYPE token_status_type AS ENUM (
     'ACTIVE',
     'USED',
-    'EXPIRED'
+    'EXPIRED',
+	'REVOKED'
 );
 
 CREATE TYPE nivel_actividad_fisica_type AS ENUM (
