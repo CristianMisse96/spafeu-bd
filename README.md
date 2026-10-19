@@ -48,6 +48,10 @@ SPAFEU es una plataforma orientada a promover hábitos de actividad física en c
   - Relación sede-programa activa.
   - Cuestionarios PAR-Q e historial de actividad física con opciones y preguntas.
   - 4 protocolos de actividad física con objetivos y ejercicios clasificados.
+- Gestión de tokens de seguridad:
+  - Activación de cuentas (`account_activation_tokens`).
+  - Refresh tokens (`refresh_tokens`) con estado `REVOKED`.
+- Historial de niveles de actividad física (`user_level_history`).
 - Script de instalación automatizado para entornos Windows.
 
 ---
@@ -133,6 +137,9 @@ El esquema incluye las siguientes entidades principales:
 | `users_roles` | Relación muchos-a-muchos entre usuarios y roles. |
 | `user_health_profile` | Perfil de salud del usuario (IMC, peso, altura, sexo, fecha de nacimiento, semestre, sede, programa, nivel de actividad física). |
 | `password_reset_tokens` | Tokens para recuperación de contraseña con estado y expiración. |
+| `account_activation_tokens` | Tokens para activación de cuentas de usuario. |
+| `refresh_tokens` | Tokens de refresco de sesión con estado activo/revocado. |
+| `user_level_history` | Histórico de cambios en el nivel de actividad física de cada usuario. |
 | `campus` | Sedes universitarias. |
 | `academic_program` | Programas académicos. |
 | `campus_program` | Relación entre sedes y programas activos. |
